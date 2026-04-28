@@ -1,6 +1,6 @@
 **Guia de DAO (Java)**
 
-- #**Definição do padrão DAO**#
+- # **Definição do padrão DAO**
 
  
  O padrão DAO é definido no livro "Core J2EE Patterns" como: "o padrão utilizado para abstrair e encapsular todos os acessos ao data source.
