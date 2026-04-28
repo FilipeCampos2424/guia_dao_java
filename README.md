@@ -12,6 +12,18 @@ fogão é a gás ou elétrico.
 
 - **Ciclo de vida da conexão JDBC**
 
+Primeiramente, que é JDBC?
+JDBC é uma API fornecida pela Oracle que facilita a interação entre aplicações Java e bancos de dados. 
+A API JDBC oferece uma série de classes e interfaces para conectar-se a um banco de dados, executar comandos SQL e processar os resultados. Com o JDBC, os desenvolvedores podem realizar operações de banco de dados diretamente de suas aplicações Java.
+
+Seu ciclo de vida dividido em etapas é basicamente assim:
+- A criação: a aplicação solicita uma conexão, o driver JDBC do banco é usado pra estabelecer a ponte, e aí o banco de dados faz a validação.
+- O Uso: A conexão cria statements, comandos SQL são enviados, transações são iniciadas, commits e rollbacks são realizados, com o banco de dados fazendo todo o processamento
+- Fechamento: A aplicação chama o método de fechá-la, mas não a exclui completamente, (em ambientes corporativos, entrando em uma "free pool" para ser reutilizada)
+- Destruição: Se o pool de conexões for encerrado ou a aplicação finalizada, a conexão física com o banco de dados é fechada definitivamente
+
+
+
 
 - **Práticas de segurança (SQL injection, prepared statements)**
 
@@ -63,3 +75,4 @@ Validar dados antes de enviar ao banco.
 - https://www.postgresql.org/docs/
 - https://www.devmedia.com.br/implementando-o-data-access-object-no-java-ee/33339
 - https://www.devmedia.com.br/dao-pattern-persistencia-de-dados-utilizando-o-padrao-dao/30999
+- https://www.dio.me/articles/jdbc-java-database-connectivity-uma-visao-geral-57b6b447ec8d
