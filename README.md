@@ -44,8 +44,20 @@ if (!$email) {
 verifica se o email e correto
 
 
-
 - **Checklist de qualidade (fechamento de recursos, exceções)**
+
+- checklist de qualidade (fechamento de recursos, exceções)
+
+E uma forma de garantir que o sistema esta seguro, e rodando sem problemas a longo prazo.
+Ajuda a deixar o código mais organizado e seguro como exemplo:
+Abrir conexões apenas quando e nessecesario
+Capturar exceções especificas (SQLException)
+Validar dados antes de enviar ao banco.
+
 
 
 - **Fontes utilizadas:**
+- https://dev.mysql.com/doc/
+- https://www.postgresql.org/docs/
+- https://www.devmedia.com.br/implementando-o-data-access-object-no-java-ee/33339
+- https://www.devmedia.com.br/dao-pattern-persistencia-de-dados-utilizando-o-padrao-dao/30999
