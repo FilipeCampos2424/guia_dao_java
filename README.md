@@ -10,7 +10,7 @@ Este padrão permite mudar a forma de persistência sem que isso influencie em n
 O DAO funciona como se fosse um garçom, você pede o prato (dados) e ele resolve buscar na cozinha (banco), sem que você precise saber se o
 fogão é a gás ou elétrico.
 
-- **Ciclo de vida da conexão JDBC**
+- # **Ciclo de vida da conexão JDBC**
 
 Primeiramente, que é JDBC?
 JDBC é uma API fornecida pela Oracle que facilita a interação entre aplicações Java e bancos de dados. 
@@ -25,7 +25,7 @@ Seu ciclo de vida dividido em etapas é basicamente assim:
 
 
 
-- **Práticas de segurança (SQL injection, prepared statements)**
+- # **Práticas de segurança (SQL injection, prepared statements)**
 
   
 Praticas de segurança são muito importantes de serem utilizadas, para se prevenir e proteger o sistema de qualquer intenção maliciosa como o sql injection.
@@ -59,7 +59,7 @@ if (!$email) {
 verifica se o email e correto
 
 
-- **Checklist de qualidade (fechamento de recursos, exceções)**
+- # **Checklist de qualidade (fechamento de recursos, exceções)**
 
 
 É uma forma de garantir que o sistema esta seguro, e rodando sem problemas a longo prazo.
@@ -70,7 +70,7 @@ Validar dados antes de enviar ao banco.
 
 
 
-- **Fontes utilizadas:**
+- # **Fontes utilizadas:**
 - https://dev.mysql.com/doc/
 - https://www.postgresql.org/docs/
 - https://www.devmedia.com.br/implementando-o-data-access-object-no-java-ee/33339
