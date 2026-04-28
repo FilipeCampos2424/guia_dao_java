@@ -15,9 +15,12 @@ fogão é a gás ou elétrico.
 
 - **Práticas de segurança (SQL injection, prepared statements)**
 
-- práticas de segurança (SQL injection, prepared statements)
+  
 Praticas de segurança e muito importante de ser utilizadas, para se prevenir e proteger o sistema de qualquer intenção maliciosa como o sql injection.
+
+
 Defesas principais:
+
 
 Consultas parametrizadas:
 binding de variáveis também chamadas consultas parametrizadas elas forçam o desenvolvedor a definir todo o código SQL primeiro e passar cada parâmetro para a consulta depois.
