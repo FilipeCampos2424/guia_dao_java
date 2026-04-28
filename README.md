@@ -10,13 +10,13 @@ Este padrão permite mudar a forma de persistência sem que isso influencie em n
 O DAO funciona como se fosse um garçom, você pede o prato (dados) e ele resolve buscar na cozinha (banco), sem que você precise saber se o
 fogão é a gás ou elétrico.
 
-- Ciclo de vida da conexão JDBC
+- **Ciclo de vida da conexão JDBC**
 
 
-- Práticas de segurança (SQL injection, prepared statements)
+- **Práticas de segurança (SQL injection, prepared statements)**
 
 
-- Checklist de qualidade (fechamento de recursos, exceções)
+- **Checklist de qualidade (fechamento de recursos, exceções)**
 
 
-- Fontes utilizadas:
+- **Fontes utilizadas:**
