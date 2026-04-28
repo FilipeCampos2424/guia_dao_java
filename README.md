@@ -15,6 +15,35 @@ fogão é a gás ou elétrico.
 
 - **Práticas de segurança (SQL injection, prepared statements)**
 
+- práticas de segurança (SQL injection, prepared statements)
+Praticas de segurança e muito importante de ser utilizadas, para se prevenir e proteger o sistema de qualquer intenção maliciosa como o sql injection.
+Defesas principais:
+
+Consultas parametrizadas:
+binding de variáveis também chamadas consultas parametrizadas elas forçam o desenvolvedor a definir todo o código SQL primeiro e passar cada parâmetro para a consulta depois.
+Se consultas de banco de dados usarem esse estilo de codificação, o banco de dados sempre distinguirá entre código e dados.
+
+Uso de prepared statements:
+  Em vez de montar a query juntando string você usa placeholders ? ou :nome e depois passa os valores.
+  Onde ele compila a query sem os dados e depois recebe os valores separados.
+
+exemplo de código:
+
+$stmt = $pdo->prepare("SELECT * FROM usuarios WHERE email = ?");
+$stmt->execute([$email]);
+
+Validação de entrada:
+ E um processo que verifica os dados que e enviado pelo usuário antes de usar.
+ E feito definindo regras como tipo de dado, formato esperado
+
+exemplo de código:
+
+if (!$email) { 
+    echo "Email inválido";
+}
+verifica se o email e correto
+
+
 
 - **Checklist de qualidade (fechamento de recursos, exceções)**
 
