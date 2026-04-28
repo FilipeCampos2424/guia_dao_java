@@ -16,7 +16,7 @@ fogão é a gás ou elétrico.
 - **Práticas de segurança (SQL injection, prepared statements)**
 
   
-Praticas de segurança e muito importante de ser utilizadas, para se prevenir e proteger o sistema de qualquer intenção maliciosa como o sql injection.
+Praticas de segurança são muito importantes de serem utilizadas, para se prevenir e proteger o sistema de qualquer intenção maliciosa como o sql injection.
 
 
 Defesas principais:
@@ -49,9 +49,8 @@ verifica se o email e correto
 
 - **Checklist de qualidade (fechamento de recursos, exceções)**
 
-- checklist de qualidade (fechamento de recursos, exceções)
 
-E uma forma de garantir que o sistema esta seguro, e rodando sem problemas a longo prazo.
+É uma forma de garantir que o sistema esta seguro, e rodando sem problemas a longo prazo.
 Ajuda a deixar o código mais organizado e seguro como exemplo:
 Abrir conexões apenas quando e nessecesario
 Capturar exceções especificas (SQLException)
