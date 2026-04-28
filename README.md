@@ -6,7 +6,7 @@
 - ciclo de vida da conexão JDBC
 
 
--práticas de segurança (SQL injection, prepared statements)
+- práticas de segurança (SQL injection, prepared statements)
 
 
 - checklist de qualidade (fechamento de recursos, exceções)
