@@ -1,1 +1,3 @@
-# guia_dao_java
+**Guia de DAO (Java)**
+
+Definição do padrão DAO (+ Exemplos)
